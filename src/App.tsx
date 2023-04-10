@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Yays from './Yays';
 
 // // Import the functions you need from the SDKs you need
 // import { initializeApp } from "firebase/app";
@@ -24,11 +25,14 @@ import './App.css';
 // const app = initializeApp(firebaseConfig);
 // const analytics = getAnalytics(app);
 
+function AddMoreYays() {
+  console.log("Yay");
+}
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
@@ -40,6 +44,9 @@ function App() {
         >
           Learn React yay
         </a>
+
+        <button onClick={AddMoreYays}>Add More Yays</button>
+        <Yays></Yays>
       </header>
     </div>
   );
