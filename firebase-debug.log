@@ -101,3 +101,15 @@ You're about to initialize a Firebase project in this directory:
 [info] 
 [info] ✔  Success! Logged into GitHub as joeb1415 
 [info] 
+[debug] [2023-04-10T17:34:04.875Z] >>> [apiv2][query] GET https://api.github.com/repos/joeb1415/adopt_a_tree/actions/secrets/public-key type=owner
+[debug] [2023-04-10T17:34:05.020Z] <<< [apiv2][status] GET https://api.github.com/repos/joeb1415/adopt_a_tree/actions/secrets/public-key 401
+[debug] [2023-04-10T17:34:05.021Z] <<< [apiv2][body] GET https://api.github.com/repos/joeb1415/adopt_a_tree/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-04-10T17:34:21.190Z] >>> [apiv2][query] GET https://api.github.com/repos/joeb1415/adopt_a_tree/actions/secrets/public-key type=owner
+[debug] [2023-04-10T17:34:21.302Z] <<< [apiv2][status] GET https://api.github.com/repos/joeb1415/adopt_a_tree/actions/secrets/public-key 401
+[debug] [2023-04-10T17:34:21.303Z] <<< [apiv2][body] GET https://api.github.com/repos/joeb1415/adopt_a_tree/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-04-10T17:34:46.857Z] >>> [apiv2][query] GET https://api.github.com/repos/joeb1415/adopt_a_tree/actions/secrets/public-key type=owner
+[debug] [2023-04-10T17:34:46.955Z] <<< [apiv2][status] GET https://api.github.com/repos/joeb1415/adopt_a_tree/actions/secrets/public-key 401
+[debug] [2023-04-10T17:34:46.956Z] <<< [apiv2][body] GET https://api.github.com/repos/joeb1415/adopt_a_tree/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2023-04-10T17:35:00.854Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-04-10T17:35:00.965Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 401
+[debug] [2023-04-10T17:35:00.965Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
